@@ -63,3 +63,11 @@ To see the deployment related configurations:
 
 `queue-sidecar-cpu-request: 0m` --> Set cpu-request to zero
 `queue-sidecar-memory-request: 00Mi` --> Set memory request to zero
+
+
+
+Also `kubectl edit configmap config-features -n knative-serving`   
+```   
+  kubernetes.podspec-affinity: enabled
+  kubernetes.podspec-runtimeclassname: enabled
+```
