@@ -70,4 +70,6 @@ Also `kubectl edit configmap config-features -n knative-serving`
 ```   
   kubernetes.podspec-affinity: enabled
   kubernetes.podspec-runtimeclassname: enabled
+  kubernetes.podspec-nodeselector: "enabled"
+
 ```
